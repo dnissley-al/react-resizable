@@ -12,7 +12,7 @@ See the example and associated code in [TestLayout](/test/TestLayout.jsx) and
 Make sure you use the associated styles in [/css/styles.css](/css/styles.css), as without them, you will have
 problems with handle placement and visibility.
 
-You can pass options directly to the underlying `Draggable` instance by using the prop `draggableOpts`.
+You can pass options directly to the underlying `DraggableCore` instance by using the prop `draggableOpts`.
 See the [demo](/test/TestLayout.jsx) for more on this.
 
 
