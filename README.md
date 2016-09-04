@@ -55,7 +55,11 @@ draggableOpts: React.PropTypes.object
 
 ```js
 {
-lockAspectRatio: React.PropTypes.bool, // Preserves aspect
+// Preserves aspect ratio (default: false)
+lockAspectRatio: React.PropTypes.bool,
+
+// Restricts resizing to a particular axis (default: 'both')
+axis: React.PropTypes.oneOf(['both', 'x', 'y', 'none']),
 
 // Constaints coords, pass [x,y]
 minConstraints: React.PropTypes.arrayOf(React.PropTypes.number),
