@@ -180,8 +180,8 @@ export default class Resizable extends React.Component {
 
   render(): React.Element {
     // eslint-disable-next-line no-unused-vars
-    const {children, draggableOpts, width, height,
-        handleSize, lockAspectRatio, minConstraints, maxConstraints, onResize,
+    const {children, draggableOpts, width, height, handleSize,
+        lockAspectRatio, axis, minConstraints, maxConstraints, onResize,
         onResizeStop, onResizeStart, ...p} = this.props;
 
     const className = p.className ?
